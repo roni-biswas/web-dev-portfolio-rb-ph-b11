@@ -13,6 +13,7 @@
 
 :root {
   --primary-color: #fd6e0a;
+  --secondary-color: #fff8f3;
 }
 
 /* shared styles */
@@ -22,6 +23,10 @@
 
 .dark-2 {
   color: #474747;
+}
+
+.dark-3 {
+  color: #757575;
 }
 
 .primary-btn {
@@ -60,6 +65,14 @@
   color: #ffffff;
 }
 
+.margin-top {
+  margin-top: 130px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .container {
   width: 1140px;
   padding-left: 15px;
@@ -77,6 +90,7 @@
   font-size: 18px;
   margin-top: 30px;
 }
+
 /* header styles */
 
 .header {
@@ -153,3 +167,30 @@
   width: 580px;
 }
 /* end heder */
+
+/* about section styles */
+.about-container {
+  background-color: var(--secondary-color);
+  padding: 130px 150px;
+  border-radius: 10px;
+}
+
+.about-content {
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.title-head {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
