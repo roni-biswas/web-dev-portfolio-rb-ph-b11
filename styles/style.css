@@ -218,3 +218,33 @@
 .experience-section .title-item {
   margin-top: 38px;
 }
+
+/* start resume styles */
+.resume-section .resume-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 100px;
+}
+.resume-container .resume-column .resume-column-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-column .experience .experience-title {
+  font-style: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.resume-column .experience .experience-subtitle {
+  font-style: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.resume-column .experience .experience-description {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 45px 30px 0;
+}
