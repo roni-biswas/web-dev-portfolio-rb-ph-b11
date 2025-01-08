@@ -5,21 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautiful Portfolio Website</title>
+    <!-- link google font - Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- link custom css -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
+<body class="open-sans-normal">
     <!-- start header section -->
     <header class="header">
-        <nav class="nav-menu">
+        <nav class="nav-menu container">
             <div class="logo-text">
-                <h1><a href="/index.html">Ro<span>n</span>i</a></h1>
+                <h1><a href="/index.html" class="dark-1">Ma<span>r</span>y</a></h1>
             </div>
             <ul class="nav-items">
-                <li class="nav-item"><a href="#">Portfolio</a></li>
-                <li class="nav-item"><a href="#">Blog</a></li>
-                <li class="nav-item"><button>Hire Me</button></li>
+                <li class="nav-item"><a href="#" class="dark-2">Portfolio</a></li>
+                <li class="nav-item"><a href="#" class="dark-2">Blog</a></li>
+                <li class="nav-item"><button class="primary-btn">Hire Me</button></li>
             </ul>
-        </nav>
+        </nav> <!-- end nav -->
+        <!-- start hero section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h3 class="section-greeting dark-2">Hi, I am</h3>
+                <h1 class="section-title hero-title dark-1">Mary Hardy</h1>
+                <p class="section-description">Shot what able cold new see hold.Friendly as an betrayed formerly he.
+                    Morning
+                    because as to society behaved moments.</p>
+                <button class="primary-btn">Download CV</button>
+                <button class="secondary-btn">Contact</button>
+            </div>
+            <img src="images/hardy.png" alt="hardy">
+        </section> <!--ends-->
     </header>
 </body>
 
